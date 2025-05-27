@@ -23,7 +23,7 @@ def minimax_gato(pos_gato, pos_raton, tablero, profundidad, es_turno_gato, queso
         # Turno del gato, quiere maximizar la distancia (acercarse)
         mejor = -float("inf")
 
-        for mov_g in movimientos_validos_gato(pos_gato, tablero, ):
+        for mov_g in movimientos_validos_gato(pos_gato, tablero):
 
             valor = minimax_gato(mov_g, pos_raton, tablero, profundidad-1, False, quesos_restantes, total_quesos)
 
