@@ -16,7 +16,7 @@ Juego de tablero por turnos en Python donde un gato (🐱) persigue a un ratón 
 * Manejo de estados con parámetros adicionales (quesos_restantes) generó muchos errores de firma de funciones.
 
 **Mejor “¡ajá!”:**
-Fue cuando funcionó el minimax del gato. El minimax del ratón lo logré de manera realtivamente rápida, pero el minimax del ratón si costó más.
+Fue cuando funcionó el minimax del gato. El minimax del ratón lo logré de manera realtivamente rápida, pero el minimax del ratón si costó más. Tambien tuve problemas con mi github, que EDu y Ceci me ayudaron y se pudo solucionar, pero aprender a usar github bien es algo pendiente para el siguiente challenge.
 
 ## Estructura del Proyecto
 
