@@ -1,9 +1,6 @@
 import random
-<<<<<<< HEAD
 simbolo_obstaculo = "🪨"
 
-=======
->>>>>>> origin/main
 
 # Indicamos como puede moverse
 deltas_raton = [(-1,0),(1,0),(0,-1),(0,1)]
@@ -26,11 +23,7 @@ def movimientos_validos_raton(pos, tablero):
     for dx, dy in deltas_raton:
         nueva = (fila + dx, col + dy)
         # Definimos que se quede dentro del tablero cuando se le 'suma' o 'resta' la delta a la posicion actual dependiendo de donde quiera moverse
-<<<<<<< HEAD
         if dentro_del_tablero(nueva, tablero) and tablero[nueva[0]][nueva[1]] != simbolo_obstaculo:
-=======
-        if dentro_del_tablero(nueva, tablero):
->>>>>>> origin/main
             validos_raton.append(nueva)
     return validos_raton
 
@@ -43,11 +36,7 @@ def movimientos_validos_gato(pos, tablero):
     for dx, dy in deltas_gato:
         nueva = (fila + dx, col + dy)
         # Definimos que se quede dentro del tablero cuando se le 'suma' o 'resta' la delta a la posicion actual dependiendo de donde quiera moverse
-<<<<<<< HEAD
         if dentro_del_tablero(nueva, tablero) and tablero[nueva[0]][nueva[1]] != simbolo_obstaculo:
-=======
-        if dentro_del_tablero(nueva, tablero):
->>>>>>> origin/main
             validos_gato.append(nueva)
     return validos_gato
 
@@ -59,11 +48,7 @@ def movimientos_validos_manuales(pos, tablero):
     validos_manual = []
     for dx, dy in deltas_manual:
         nueva = (fila + dx, col + dy)
-<<<<<<< HEAD
         if dentro_del_tablero(nueva, tablero) and tablero[nueva[0]][nueva[1]] != simbolo_obstaculo:
-=======
-        if dentro_del_tablero(nueva, tablero):
->>>>>>> origin/main
             validos_manual.append(nueva)
     return validos_manual
 
@@ -178,14 +163,11 @@ def mover_manual_gato(tablero, pos_gato):
             print("Te saliste del tablero, proba moverte en otra direciion!! \n")
             continue
 
-<<<<<<< HEAD
         # Se verifica que no pase por el obstaculo
         if tablero[nueva[0]][nueva[1]] ==  simbolo_obstaculo:
             print("Hay un obstaculo, no puedes pasar por ahi!")
             continue
 
-=======
->>>>>>> origin/main
         #Se limpia la posicion anterior
         tablero[fila_act_gato][col_act_gato]=" "
         
@@ -227,15 +209,12 @@ def mover_manual_raton(tablero, pos_raton):
             print("Te saliste del tablero, proba moverte en otra direciion!!")
             continue
 
-<<<<<<< HEAD
           # Se verifica que no pase por el obstaculo
         if tablero[nueva[0]][nueva[1]] ==  simbolo_obstaculo:
             print("Hay un obstaculo, no puedes pasar por ahi!")
             continue
 
 
-=======
->>>>>>> origin/main
         #Se limpia la posicion anterior
         tablero[fila_act_raton][col_act_raton]=" "
         
