@@ -187,15 +187,15 @@ def mover_manual_raton(tablero, pos_raton):
     # Se descompone las posiciones actuales del gato
     fila_act_raton, col_act_raton = pos_raton
 
-    # Se inicia el nucle
+    # Se inicia el bucle
     while True:
-        tecla = input("Utilice W/A/S/D para perseguir al raton")
+        tecla = input("Utilice W/A/S/D para perseguir al raton \n")
 
         tecla = tecla.lower().strip()
 
         # Se verifica que la tecla presionada este dentro de las opciones
         if tecla not in deltas_manual:
-            print("Tecla invalida, utilice solo teclas W/A/S/D para moverse")
+            print("Tecla invalida, utilice solo teclas W/A/S/D para moverse \n")
             continue
 
         # Se descompone la tecla presionadas en filas y columnas 
