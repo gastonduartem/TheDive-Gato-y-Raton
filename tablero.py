@@ -1,11 +1,15 @@
+<<<<<<< HEAD
 import random
 
+=======
+>>>>>>> origin/main
 def imprimir_tablero(tablero):
     for fila in tablero:
         print("+--------" * len(fila) + "+")
         for celda in fila:
             print(f"|  {celda:^5} ", end="")
         print("|")
+<<<<<<< HEAD
     print("+--------" * len(tablero[0]) + "+")
 
 def colocar_elementos_aleatorios(tablero, simbolo, cantidad):
@@ -24,3 +28,6 @@ def colocar_elementos_aleatorios(tablero, simbolo, cantidad):
             posiciones_usadas.add((columnas, filas))
     
     return posiciones_usadas
+=======
+    print("+--------" * len(tablero[0]) + "+")
+>>>>>>> origin/main
