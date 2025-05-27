@@ -1,3 +1,5 @@
+from movimientos import movimientos_validos_gato, movimientos_validos_raton, deltas_gato, deltas_raton, deltas_manual
+
 # Se calcula la distancia de Manhattan
 def distancia_manhattan(p1, p2):
     return abs(p1[0]- p2[0]) + abs(p1[1] - p2[1])
