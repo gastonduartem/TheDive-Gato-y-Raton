@@ -1,6 +1,28 @@
 from movimientos import movimientos_validos_gato, movimientos_validos_raton, deltas_gato, deltas_raton, deltas_manual
+<from mofrom movimientos import movimientos_validos_gato, movimientos_validos_raton, deltas_gato, deltas_raton, deltas_manual
+from minimaxRaton import evaluar_estado_raton
+from minimaxRaton import evaluar_estado_raton
 <<<<<<< HEAD
 from minimaxRaton import evaluar_estado_raton
+=======
+>>>>>>> origin/main<<<<< Hfrom movimientos import movimientos_validos_gato, movimientos_validos_raton, deltas_gato, deltas_raton, deltas_manual
+<<<<<<< Hfrom movimientos import movimientos_validos_gato, movimientos_validos_raton, deltas_gato, deltas_raton, deltas_manual
+<<<<<<< HEAD
+from minimaxRaton import evaluar_estado_raton
+=======
+>>>>>>> origin/mainEAD
+from minimaxRaton import evaluar_estado_raton
+=======
+>>>>>>> origin/mainEAD
+from minimaxRaton import evaluar_estado_rafrom movimientos import movimientos_validos_gato, movimientos_validos_raton, deltas_gato, deltas_raton, deltas_manual
+<<<<<<< HEAD
+from minimaxRaton import evalufrom movimientos import movimientos_validos_gato, movimientos_validos_raton, deltas_gato, deltas_raton, deltas_manual
+<<<<<<< HEAD
+from minimaxRaton import evaluar_estado_raton
+=======
+>>>>>>> origin/mainar_estado_raton
+=======
+>>>>>>> origin/mainton
 =======
 >>>>>>> origin/main
 
