@@ -7,7 +7,7 @@ Juego de tablero por turnos en Python donde un gato (🐱) persigue a un ratón 
 **Qué funcionó:**
 
 * Implementación básica del tablero y movimientos.
-* Minimax con poda α‑β para ambos jugadores.
+* Minimax para ambos jugadores.
 * Colocación aleatoria de quesos y obstáculos.
 
 **Qué fue un desastre:**
